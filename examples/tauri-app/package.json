@@ -1,0 +1,23 @@
+{
+  "name": "tauri-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@tauri-apps/api": "^2.0.0-alpha.11",
+    "tauri-plugin-sign-in-with-apple-api": "file:../../"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "@tauri-apps/cli": "^2.0.0-alpha.17",
+    "svelte": "^3.49.0",
+    "vite": "^3.0.2"
+  }
+}
