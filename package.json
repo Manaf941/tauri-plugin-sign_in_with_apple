@@ -4,6 +4,7 @@
   "author": "Manaf941",
   "description": "",
   "type": "module",
+  "license": "MIT",
   "types": "./dist-js/index.d.ts",
   "main": "./dist-js/index.cjs",
   "module": "./dist-js/index.js",
