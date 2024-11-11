@@ -1,7 +1,7 @@
 {
   "name": "tauri-plugin-sign-in-with-apple-api",
-  "version": "0.1.0",
-  "author": "You",
+  "version": "1.0.0",
+  "author": "Manaf941",
   "description": "",
   "type": "module",
   "types": "./dist-js/index.d.ts",
