@@ -20,7 +20,7 @@ export interface AppleIDAuthorizationResponse {
   state: string | null
 }
 
-export async function get_apple_id_credential(request: AppleIDAuthorizationRequest): Promise<any> {
+export async function get_apple_id_credential(request: AppleIDAuthorizationRequest): Promise<AppleIDAuthorizationResponse> {
   const result = await invoke<AppleIDAuthorizationResponse>('plugin:sign-in-with-apple|get_apple_id_credential', {
     payload: request,
   })
