@@ -38,30 +38,4 @@ Denies the get_apple_id_credential command without any pre-configured scope.
 
 </td>
 </tr>
-
-<tr>
-<td>
-
-`sign-in-with-apple:allow-ping`
-
-</td>
-<td>
-
-Enables the ping command without any pre-configured scope.
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-`sign-in-with-apple:deny-ping`
-
-</td>
-<td>
-
-Denies the ping command without any pre-configured scope.
-
-</td>
-</tr>
 </table>
