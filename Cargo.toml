@@ -1,6 +1,6 @@
 [package]
 name = "tauri-plugin-sign-in-with-apple"
-version = "1.0.1"
+version = "1.0.2"
 authors = [ "Manaf941" ]
 description = "Add Sign In With Apple capabilities to your Tauri iOS App."
 license = "MIT"
